@@ -12,10 +12,9 @@ import empirixdetails.Logindetailspage;
 	@Test(priority=1)
 	public void BasicDetailsonloginPage() throws Exception 
 	{
-		
-		System.out.println("Driver valueE inside fillBasicDetailsPage() method is "+ driver);
-		Logindetailspage detailsPage = PageFactory.initElements(driver, Logindetailspage.class);
-		detailsPage.loginEnGR();
+	System.out.println("Driver valueE inside fillBasicDetailsPage() method is "+ driver);
+	Logindetailspage detailsPage = PageFactory.initElements(driver, Logindetailspage.class);
+	detailsPage.loginEnGR();
 				
 	}
 
